@@ -28,7 +28,16 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+}
 
+.san-juan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/san-juan.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
