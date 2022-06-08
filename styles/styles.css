@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --background-green: #a9dd86
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: var(--background-green);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
