@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
-    --background-green: #a9dd86
+    --background-green: #a9dd86;
+    --background-blue: #a0c2eb;
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-color: var(--background-green);
+    background-color: var(--background-blue);
     display: flex;
     flex-direction: column;
 }
