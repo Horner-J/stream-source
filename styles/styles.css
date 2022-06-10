@@ -42,3 +42,13 @@ body {
     background-size: contain;
 }
 
+.poudre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/poudre.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
