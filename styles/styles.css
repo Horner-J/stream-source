@@ -13,8 +13,11 @@
 
 body {
     background-color: var(--background-green);
+    background-image: url("../images/fall-fly-fishing.jpg");
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -29,6 +32,11 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+h2 {
+    justify-content: center;
+}
+
 
 .san-juan {
     display: flex;
