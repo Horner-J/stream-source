@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
-    --background-green: #a9dd86
+    --background-green: #a9dd86;
+    --background-blue: #a0c2eb;
 }
 
 * {
@@ -12,8 +13,12 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: var(--background-green);
     background-image: url("../images/fall-fly-fishing.jpg");
+=======
+    background-color: var(--background-blue);
+>>>>>>> d6e14c696c9c60ad727dfa739e43ac82a43abe00
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -49,3 +54,13 @@ h2 {
     background-size: contain;
 }
 
+.poudre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/poudre.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
