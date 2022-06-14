@@ -64,3 +64,14 @@ h2 {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.big-thompson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/big-thompson.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
